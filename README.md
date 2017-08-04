@@ -15,4 +15,5 @@ http://picamera.readthedocs.io/en/release-1.10/recipes1.html
   > 1 6-22 * * * /home/pi/Documents/OpenAg-MVP/scripts/webcam.sh
   -  Replace it with the following:
   > 1 6-22 * * * /home/pi/Documents/OpenAg-MVP/python/getImage.py
-
+## Camera Adjustment
+The lights in the MVP are bright and can overwehlm some sensors.  Fortunately the Pi camera has a lot of settings.  The python code has the settings set (ISO and brightness) to the defaults.  Try changing these around if you image is washed out or not the quality you want.  In general you will likely want a low ISO number (50 or 100).
