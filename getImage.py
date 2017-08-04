@@ -15,6 +15,7 @@ camera = picamera.PiCamera()
 # Adjust brightness and ISO for lighting
 camera.brightness=50
 camera.ISO=0
+camera.resolution = (2592, 1944)
 
 # Capture an image
 camera.capture(fileName)
