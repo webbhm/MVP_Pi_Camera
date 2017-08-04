@@ -14,5 +14,5 @@ http://picamera.readthedocs.io/en/release-1.10/recipes1.html
   - Delete the line that says:
   > 1 6-22 * * * /home/pi/Documents/OpenAg-MVP/scripts/webcam.sh
   -  Replace it with the following:
-  1 6-22 * * * /home/pi/Documents/OpenAg-MVP/python/getImage.py
+  > 1 6-22 * * * /home/pi/Documents/OpenAg-MVP/python/getImage.py
 
